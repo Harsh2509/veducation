@@ -27,7 +27,10 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <a className="text-white font-bold text-2xl" href="/">
+                  <a
+                    className="text-white font-bold text-2xl hidden md:block"
+                    href="/"
+                  >
                     Square
                   </a>
                 </div>
