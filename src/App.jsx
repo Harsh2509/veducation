@@ -8,11 +8,16 @@ import {
   Link,
 } from "react-router-dom";
 import { Login } from "./screens/Login";
+import { Projects } from "./screens/Projects";
 
 const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/",
+    element: <Projects />,
   },
 ]);
 
